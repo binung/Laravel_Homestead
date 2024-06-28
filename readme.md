@@ -129,6 +129,12 @@ Using automatic hostnames works best for per project installations of Homestead.
 192.168.56.101 app.com
 ```
 
+Make sure the IP address listed is the one set in your Homestead.yaml file. Once you have added the domain to your hosts file and launched the Vagrant box you will be able to access the site via your web browser:
+
+```
+http://hello.com
+```
+
 # Connecting via SSH
 
 ```
@@ -136,7 +142,11 @@ vagrant up
 vagrant ssh
 cd code/hello
 php artisan migrate
+
 npm install vue
+
+...
+
 npm run dev
 ```
 
