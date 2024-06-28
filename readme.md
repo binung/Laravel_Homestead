@@ -111,7 +111,7 @@ Complete the Key Generation Process:
 
 You'll be prompted to enter a passphrase. You can choose to enter a passphrase for added security or press Enter twice to leave it empty:
 
-# Project Installation
+# Create a Laravel project:
 
 ```
 composer create-project --prefer-dist laravel/laravel hello-world
@@ -133,6 +133,7 @@ Make sure the IP address listed is the one set in your Homestead.yaml file. Once
 
 ```
 http://hello.com
+http://app.com
 ```
 
 # Connecting via SSH
@@ -151,6 +152,8 @@ npm run dev
 ```
 
 # Updating Homestead
+
+Before you begin updating Homestead you should ensure you have removed your current virtual machine by running the following command in your Homestead directory:
 
 ```
 vagrant destroy
